@@ -34,4 +34,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## 🌱 Live Demo
 
-Check it out [here](https://alexapenzes.github.io/myFlix-Angular-client/welcome).
+Check it out [here](https://myflix-angular-client.vercel.app/welcome).
