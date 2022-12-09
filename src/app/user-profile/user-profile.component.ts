@@ -30,6 +30,12 @@ export class UserProfileComponent implements OnInit {
     this.getUserInfo();
   }
 
+  /**
+   * Fetch user data via API
+   * @returns object with user information
+   * @function getUserInfo
+   */
+
   getUserInfo(): void {
     this.fetchApiData.getUser().subscribe((resp: any) => {
       this.user = resp;
