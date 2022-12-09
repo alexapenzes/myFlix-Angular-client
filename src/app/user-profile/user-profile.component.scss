@@ -3,10 +3,20 @@ $cardColor: #336D82;
 $textColor: #EEF0F2;
 $boxShadowColor: #0F121F;
 
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+  background-color: $backgroundColor;
+  height: 100%;
+}
+
 mat-card {
-  max-width: 300px;
-  margin: auto;
-  padding: 15px;
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 30px;
+  display: flex;
   flex-direction: column;
   box-shadow: 0 10px 30px $boxShadowColor;
   background-color: $cardColor;
@@ -20,12 +30,18 @@ mat-card-header {
   justify-content: center;
 }
 
+mat-card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 mat-label {
   color: $cardColor;
 }
 
-input mat-input-element {
-  color: $textColor;
+mat-form-field {
+    margin: 10px;
 }
 
 mat-card > mat-card-actions {

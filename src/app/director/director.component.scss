@@ -1,0 +1,35 @@
+$backgroundColor: #191D32;
+$cardColor: #336D82;
+$textColor: #EEF0F2;
+$boxShadowColor: #0F121F;
+
+.director-dialog {
+  background-color: $backgroundColor;
+  margin-top: 0;
+  width: 400px;
+  overflow-x: hidden;
+}
+
+.director-dialog-title {
+  color: $textColor;
+  padding: 10px;
+}
+
+.director-dialog-content {
+  color: $textColor;
+  line-height: 1.2rem;
+}
+
+.director-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  line-height: 14px;
+  min-width: auto;
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  color: $textColor;
+}

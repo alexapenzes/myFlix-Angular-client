@@ -1,0 +1,35 @@
+$backgroundColor: #191d32;
+$cardColor: #336d82;
+$textColor: #eef0f2;
+$boxShadowColor: #0f121f;
+
+.genre-dialog {
+  background-color: $backgroundColor;
+  margin-top: 0;
+  width: 400px;
+  overflow-x: hidden;
+}
+
+.genre-dialog-title {
+  color: $textColor;
+  padding: 10px;
+}
+
+.genre-dialog-content {
+  color: $textColor;
+  line-height: 1.2rem;
+}
+
+.genre-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  line-height: 14px;
+  min-width: auto;
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  color: $textColor;
+}
